@@ -1,0 +1,70 @@
+html,
+body {
+  height: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: rgb(255, 160, 122, 0.2);
+  object-fit: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+    background-color: #b22222;
+    margin-bottom: 4vw;
+}
+
+
+.navbar-brand{
+    font-size: 2vw;
+    margin-left: 2vw;
+}
+
+.navbar button {
+    color: white;
+    border : 1px solid white;
+}
+
+.navbar button:hover {
+    color: white;
+    border : 1px solid white;
+    background-color: rgb(255, 160, 122, 0.6);
+}
+
+.d-flex{
+    margin-right: 2vw;
+}
+.card {
+    max-width :100%;
+    height: fit-content;
+    margin : 1vw 2vw;
+    border: 0.2vw solid #b22222;
+}
+
+.card-title {
+    font-size: 2vw;
+}
+
+.card-text {
+    font-size: 1.4vw;
+}
+
+footer {
+    padding: 0vw 2vw 0vw 2vw;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    margin-top: 4VW;
+    margin-bottom: 0;
+  }
+  
+  footer p{
+    background-color: black;
+    color: white;
+    padding : 1vw 0vw;
+  }
+  
