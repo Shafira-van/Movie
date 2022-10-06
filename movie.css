@@ -17,25 +17,37 @@ body {
     margin-bottom: 4vw;
 }
 
+.container-fluid{
+    align-items: center;
+}
+
+.d-flex{
+    margin-right: 2vw;
+    align-items: center;
+}
 
 .navbar-brand{
     font-size: 2vw;
     margin-left: 2vw;
 }
 
+.navbar input {
+    margin :0.6vw 0;
+    width :auto;
+    font-size: 1.2vw;
+}
+
 .navbar button {
     color: white;
     border : 1px solid white;
+    width :auto;
+    font-size: 1.2vw;
 }
 
 .navbar button:hover {
     color: white;
     border : 1px solid white;
     background-color: rgb(255, 160, 122, 0.6);
-}
-
-.d-flex{
-    margin-right: 2vw;
 }
 .card {
     max-width :100%;
