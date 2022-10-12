@@ -89,8 +89,6 @@ body {
     object-fit: cover;
     width: 100%;
     height : auto;
-    fit-content : cover;
-
 }
 
 footer {
@@ -110,4 +108,59 @@ footer {
   }
   
 
+  @media only screen and (max-width: 480px) {
+    .navbar-brand{
+        font-size: 4vw;
+    }
+    .navbar input {
+        margin :0vw 0;
+        width :auto;
+        font-size: 2.8vw;
+    }
+    
+    .navbar button {
+        color: white;
+        border : 1px solid white;
+        width :auto;
+        font-size: 2.8vw;
+    }
 
+    .col {
+        display : flex;
+        flex-direction: column;
+        margin : 0vw 3vw;
+        
+    }
+    .card {
+        width :auto;
+        height: 22vw;
+        margin : 0vw 1vw;
+        border: 0.2vw solid #b22222;
+        display : flex;
+        flex-direction: row;
+    }
+    .card-body{
+        padding: 2vw
+    }
+    .card-title {
+        font-size: 4vw;
+        margin-bottom: 1vw;
+    }
+    
+    .card-text {
+        font-size: 3.8vw;
+
+    }
+
+    .flex-body{
+        display : flex;
+        flex-direction: column ;
+
+    }
+    .card img{
+        border-radius: 0;
+        width: auto;
+        height : 100% ;
+        object-fit : cover;
+    }    
+  }
