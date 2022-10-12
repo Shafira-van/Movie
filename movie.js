@@ -10,7 +10,7 @@ let getData = async () => {
         console.log(item)
         print += 
         `<div class="card mb-3">
-         <img src="https://image.tmdb.org/t/p/original/${item.poster_path}" class="card-img-top" alt="tidak ditemukan">
+         <img src="https://image.tmdb.org/t/p/original/${item.poster_path}" class="card-img-top" alt="">
         <div class="card-body">
           <div class="flex-body">
             <h5 class="card-title">${item.title}</h5>
@@ -39,7 +39,7 @@ let dataSearch = async (inputUser) => {
               console.log(item)
               print += 
               `<div class="card mb-3">
-               <img src="https://image.tmdb.org/t/p/original/${item.poster_path}" class="card-img-top" alt="tidak ditemukan">
+               <img src="https://image.tmdb.org/t/p/original/${item.poster_path}" class="card-img-top" alt="">
               <div class="card-body">
                 <div class="flex-body">
                   <h5 class="card-title">${item.title}</h5>
